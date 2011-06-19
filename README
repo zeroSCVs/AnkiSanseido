@@ -1,0 +1,20 @@
+##########################################################################
+#  Project: AnkiSanseido
+#
+#     "A plugin for MONOLINGUAL Japanese definition grabbing"
+#
+#  PURPOSE:
+#  Purpose of this project is to interact with Anki (ankisrs.net) as a
+#  plugin and load a definition from sanseido into a card. This will
+#  avoid the user doing this manually for many cards.
+#
+#  Initial restrictions:
+#    SANSEIDO RESTRICTIONS:
+#      The user must have their own account with Sanseido.
+#      The user user SHOULD login and *LOGOUT* each time they interact
+#        with Sanseido. If a *LOGOUT* is not performed then the user will
+#        likely be unable to access Sanseido for about 3 hours.
+#    Coding restrictions:
+#      To get the project running only djr1.dual-d.net will be used.
+#      If this project gathers a following then other sanseido
+#      dictionaries may be used.
